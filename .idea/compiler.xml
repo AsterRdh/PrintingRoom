@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="PrintRoom" />
-      </profile>
-    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PrintingRoom_dao" target="1.13" />
+      <module name="PrintingRoom_domain" target="1.13" />
+      <module name="PrintingRoom_Server" target="1.13" />
+      <module name="PrintingRoom_web" target="1.13" />
+    </bytecodeTargetLevel>
   </component>
 </project>
